@@ -1,0 +1,31 @@
+{
+  "time_window": {
+    "from": "2024-11-01",
+    "to": "2024-11-07"
+  },
+  "features": {
+    "cost_index": -1.0819346160594319,
+    "demand_signal": -1366.2000000000196,
+    "inventory_pressure": "high",
+    "competitor_price_gap": -10.000000000000455
+  },
+  "predictions": {
+    "direction": "Decreasing",
+    "market": "Bearish"
+  },
+  "attribution": [
+    {
+      "name": "cost_index",
+      "weight": 0.37
+    },
+    {
+      "name": "demand_signal",
+      "weight": 0.44
+    },
+    {
+      "name": "inventory_code",
+      "weight": 0.19
+    }
+  ],
+  "notes": "Inventory pressure is simulated (proxy)"
+}

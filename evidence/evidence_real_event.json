@@ -1,0 +1,39 @@
+{
+  "event_id": "live_event_001",
+  "timestamp": "2026-01-25T09:19:05.721711",
+  "model_version": "xgboost_v1",
+  "predicted_price": 1072.77490234375,
+  "inputs": {
+    "raw_material_cost": 448.0,
+    "demand_index": 63.0,
+    "inventory_level": 4200,
+    "competitor_price_avg": 1080.0
+  },
+  "features_used": [
+    {
+      "name": "raw_material_cost",
+      "value": 448.0,
+      "attribution": 98.24687957763672,
+      "data_source": "live_stream_v1"
+    },
+    {
+      "name": "demand_index",
+      "value": 63.0,
+      "attribution": -10.071678161621094,
+      "data_source": "live_stream_v1"
+    },
+    {
+      "name": "inventory_level",
+      "value": 4200.0,
+      "attribution": 3.268411874771118,
+      "data_source": "live_stream_v1"
+    },
+    {
+      "name": "competitor_price_avg",
+      "value": 1080.0,
+      "attribution": 3.6295278072357178,
+      "data_source": "live_stream_v1"
+    }
+  ],
+  "xai_method": "SHAP"
+}
